@@ -1,0 +1,55 @@
+.wrapper{
+  height: 100vh;
+  display: flex;
+}
+
+.chat-side{
+  width: 300px;
+  background-color: #333333;
+}
+
+.side-header{
+  background-color: #595959;
+  height: 100px;
+  display: flex;
+  align-items: center;  /* display:flexで横の移動にして、align-items:centerで中央寄せ */
+}
+
+.side-box{
+  height: 20px;
+  width: 260px;
+  background-color: #ffffff;
+  margin: 0 20px 0 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+
+
+
+.groups{
+  background-color: #333333;
+  height: calc(100vh - 100px); 
+}
+
+
+.chat-main{
+  width:  calc(100% - 300px);
+  background-color: #1a1d21;
+}
+
+.main-header{
+  background-color: #3f3f3f;
+  height: 100px;
+  border-bottom: 1px solid #595959;
+}
+
+.message{
+  background-color: #1a1d21;
+  height: calc(100% - 190px);
+}
+
+.form{
+  height: 90px;
+  background-color: #595959;
+}
