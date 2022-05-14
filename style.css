@@ -18,14 +18,36 @@
 .side-box{
   height: 20px;
   width: 260px;
-  background-color: #ffffff;
   margin: 0 20px 0 20px;
   display: flex;
   justify-content:space-between;
 }
 
+.user-name{
+  color: #333333;
+  font-weight: bold; /*文字を太字にする*/
+  color: #eeeeee;
+}
 
+.menu{
+  display: flex;
+}
 
+.new-group{
+  margin-right: 5px;
+  font-weight: bold;
+  color:#333333 ;
+}
+
+.edit-user{
+  font-weight: bold;
+  color:#333333 ;
+}
+
+a{
+  text-decoration: none; /*a要素の下線を消すには、cssでa要素を指定する*/
+  color: #eeeeee;
+}
 
 .groups{
   background-color: #333333;
@@ -42,6 +64,32 @@
   background-color: #3f3f3f;
   height: 100px;
   border-bottom: 1px solid #595959;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.current-group{
+ color: #eeeeee;
+ margin-bottom: 15px;
+}
+
+.member-list{
+  color: #eeeeee;
+  font-size: 12px;
+  display: flex;
+}
+
+.member{
+ margin-left: 5px;
+}
+
+.edit-btn{
+  color: #eeeeee;
+  font-size: 16px;
+  border: 1px solid ;
+  padding: 15px 20px;
 }
 
 .message{
@@ -52,4 +100,28 @@
 .form{
   height: 90px;
   background-color: #595959;
+  padding: 20px 40px;
+}
+
+.new-message {
+  display: flex;
+}
+
+.input-text {
+  font-size: 16px;
+  height: 50px;
+  width: 100%;
+  padding: 0 15px;
+  color: #434a54;
+  border-style: none;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 50px;
+  padding: 0 30px;
+  margin-left: 15px;
+  background-color: #eeeeee;
+  font-size: 15px;
+  color: #1a1d21;
 }
